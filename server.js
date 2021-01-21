@@ -17,6 +17,7 @@ app.use(express.static("public"));
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
 
+require("./routes/apiroutes")(app);
 require("./routes/htmlRoutes")(app);
 // db.User.create({ name: "Ernest Hemingway" })
 //   .then(dbUser => {

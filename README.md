@@ -33,7 +33,7 @@ Table of contents
 
 [Heroku link]()
 
-[Demo](./assets/demo.gif)
+![!Demo](./assets/demo.gif)
 
 ## Contributing
 

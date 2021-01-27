@@ -1,1 +1,50 @@
-# fitness-tracker
+# Fitness Tracker App
+
+## Description
+
+An application that tracks resistance and cardio workouts. Users can create a workout and add more exercises as they please. When the workout is complete the total weight/distance and duration of workout is calculated and the information is represented in charts.
+
+
+This is a full-stack web application that uses `MongoDB` to store workout data. The front-end is built with `Node.js` with `Express` routes.
+
+
+Table of contents
+=================
+
+<!--ts-->
+   * [Installation](#installation)
+   * [Deployed Link](#deploy)
+   * [Contributing](#contribution-guidelines)
+   * [License](#license)
+   * [Questions](#question)
+<!--te-->
+
+
+
+## Installation
+
+- Open terminal and run `git clone https://github.com/baileymclem/fitness-tracker`
+- Run `npm i` to intall dependencies
+- `npm start`
+- Nagivate to `localhost:3000` in browser
+
+
+## Deploy
+
+[Heroku link]()
+
+[![Demo](./assets/demo.gif)]
+
+## Contributing
+
+Contributions are welcomed!
+
+## License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Questions
+
+Email: [Baileymclem@gmail.com](Baileymclem@gmail.com)
+
+Github: [Baileymclem](https://github.com/baileymclem)

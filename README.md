@@ -14,9 +14,9 @@ Table of contents
 <!--ts-->
    * [Installation](#installation)
    * [Deployed Link](#deploy)
-   * [Contributing](#contribution-guidelines)
+   * [Contributing](#contributing)
    * [License](#license)
-   * [Questions](#question)
+   * [Questions](#questions)
 <!--te-->
 
 
@@ -33,7 +33,7 @@ Table of contents
 
 [Heroku link]()
 
-[![Demo](./assets/demo.gif)]
+[Demo](./assets/demo.gif)
 
 ## Contributing
 

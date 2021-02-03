@@ -8,8 +8,10 @@ app.use(logger("dev"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-require("./routes/apiroutes")(app);
-require("./routes/htmlRoutes")(app);
+// require("./routes/apiroutes")(app);
+// require("./routes/htmlRoutes")(app);
+app.use(require("./routes/apiroutes.js"));
+app.use(require("./routes/htmlRoutes.js"));
 
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/safe-anchorage-38365",

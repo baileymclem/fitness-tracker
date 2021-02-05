@@ -14,7 +14,7 @@ app.use(require("./routes/apiroutes.js"));
 app.use(require("./routes/htmlRoutes.js"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/safe-anchorage-38365",
+  process.env.MONGODB_URI || "mongodb://localhost/fitness-tracker",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

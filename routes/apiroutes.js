@@ -1,7 +1,6 @@
 const db = require("../models");
-const router = require("express").Router();
 
-// module.exports = function (app) {
+module.exports = function (app) {
 
   app.get("/api/workouts", (req, res) => {
     db.Workout.aggregate([{
@@ -64,5 +63,5 @@ const router = require("express").Router();
   });
 
 
-// }
-module.exports=router;
+}
+

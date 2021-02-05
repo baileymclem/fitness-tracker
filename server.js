@@ -9,9 +9,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
 require("./routes/apiroutes")(app);
-require("./routes/htmlRoutes")(app);
-
-
+require("./routes/htmlroutes")(app);
 mongoose.connect(
   process.env.MONGODB_URI || "mongodb://localhost/workout",
   {

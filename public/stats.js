@@ -174,22 +174,6 @@ function populateChart(data) {
   });
 }
 
-// function calculateTotalDuration(data) {
-
-//   let durations = [];
-
-//   data.forEach((workout) => {
-//     console.log("data", workout.exercises);
-//     const workoutDuration = workout.exercises.reduce((total, { type, duration }) => {
-//       total + duration, 0
-//     }
-//     );
-
-//     durations.push(workoutDuration);
-//   });
-
-//   return durations;
-// }
 
 function calculateTotalWeight(data) {
   let totals = [];

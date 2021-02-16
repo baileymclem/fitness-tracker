@@ -5,7 +5,7 @@
 An application that tracks resistance and cardio workouts. Users can create a workout and add more exercises as they please. When the workout is complete the total weight/distance and duration of workout is calculated and the information is represented in charts.
 
 
-This is a full-stack web application that uses `MongoDB` to store workout data. The front-end is built with `Node.js` with `Express` routes.
+This is a full-stack web application that uses `MongoDB`, `Mongoose`, `Node.js`, `Express`.
 
 
 Table of contents

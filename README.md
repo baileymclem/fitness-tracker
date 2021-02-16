@@ -33,7 +33,7 @@ Table of contents
 
 [Heroku link](https://morning-oasis-79555.herokuapp.com/)
 
-![!Demo](./assets/demo.gif)
+![!Demo](./assets/demo)
 
 ## Contributing
 
